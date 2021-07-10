@@ -2,7 +2,7 @@ FROM node:14-alpine
 
 WORKDIR /app
 
-COPY . /app
+COPY ./docker /app
 
 CMD ["node", "index.js"]
 
