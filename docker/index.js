@@ -1,7 +1,7 @@
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-    res.end('Welcome to SCA Cloud School Application, this is my first assessment ')
+    res.end('Welcome to SCA Cloud School Application')
 });
 
 server.listen(process.env.PORT || 6000, () => {
